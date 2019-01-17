@@ -1,0 +1,72 @@
+--
+------------------Table Users-------------------
+--CREATE TABLE Users(
+--user_number bigint primary key AUTO_INCREMENT,
+--user_id bigint ,
+--user_name varchar(50),
+--f_name varchar(40),
+--l_name varchar(40),
+--age int,
+--city varchar(40),
+--email varchar(100),
+--pass varchar(40),
+--Gender varchar(40),
+--is_Deleted bit,
+----Phone varchar(10),
+--USERROLES varchar(40)
+--
+--);
+--
+--
+------------------Table Roles-------------------
+--CREATE TABLE ROLES(
+--R_id bigint primary key AUTO_INCREMENT,
+--R_Type varchar(40),
+----isdeleted bit
+--);
+--
+--
+------------------Table EventM-----------------
+--CREATE TABLE EventM(
+--E_id bigint primary key AUTO_INCREMENT,
+--E_name varchar(100),
+--E_Time Time,
+--E_Place varchar(40),
+--E_Date Date,
+--E_max_capacity int,
+--E_deleted bit,
+--E_approve bit
+--
+--
+--);
+--
+--
+------------------Table Tickets-----------------
+--CREATE TABLE TICKETS(
+--T_id bigint primary key AUTO_INCREMENT,
+--T_Available bit NULL DEFAULT 0,
+--Ticket_Attender_Id bigint,
+--Ticket_Event_Id bigint,
+--Canceled bit NULL DEFAULT 0
+--
+--);
+--
+-----------------Table ReviewEventEntity---------------
+--CREATE TABLE REVIEWEVENT (
+--R_idd bigint primary key AUTO_INCREMENT,
+--Vote varchar(255),
+--Rating int,
+--R_Delete bit,
+----R_E_ID bigint
+--
+--);
+--
+------------------Table CommentsEntity-----------------
+--CREATE TABLE COMMENTS{
+--
+--C_ID bigint primary key AUTO_INCREMENT,
+--Comments varchar(255),
+--localTime datetime,
+--Deleted bit
+--
+--}
