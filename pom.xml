@@ -57,11 +57,6 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.modelmapper.extensions</groupId>
-			<artifactId>modelmapper-spring</artifactId>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.modelmapper.extensions/modelmapper-spring -->
 		<dependency>
 			<groupId>org.modelmapper.extensions</groupId>
